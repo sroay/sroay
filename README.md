@@ -6,6 +6,9 @@ I build production AI systems end to end — architecture, backend, frontend, in
 
 ### What I'm building
 
+**Forge** — the AI agent orchestration platform that runs Marketing So High, Believele and Kompense.
+24 role-specialised autonomous agents, cron-scheduled, coordinated over a custom MCP server. Schema-validated outputs with automatic retry, human-in-the-loop approval gates on every outbound action, no manual operation for routine GTM work across three companies. Internal infrastructure, not a product for sale.
+
 **[Marketing So High](https://marketingsohigh.com)** — an autonomous marketing platform, operated through an AI agent called Mavel.
 Nine specialised agents cover content strategy, SEO, outreach, distribution, competitive intelligence and analytics. One piece of source content is adapted into native formats for 40 platforms. Multi-tenant, with white-label support for agencies.
 
@@ -21,7 +24,7 @@ Tracks competitors' pricing, content, ads, social, hiring signals, news and revi
 
 **Multi-provider LLM routing.** Task-appropriate model selection and fallback chains across Gemini, OpenAI, Anthropic, Groq and OpenRouter, with structured-output validation and cost-aware routing.
 
-**Agent orchestration.** Long-running autonomous agents with approval gates, scheduled execution, and grounding constraints that keep generated output tied to source facts rather than plausible invention.
+**Agent orchestration.** Long-running autonomous agents with approval gates, scheduled execution, and grounding constraints that keep generated output tied to source facts rather than plausible invention. This is Forge.
 
 **Retrieval.** pgvector with HNSW indexing for semantic search over user profiles and market data.
 
