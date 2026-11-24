@@ -1,41 +1,28 @@
 ## Chetan Sroay
 
-Founder and sole engineer at **Techno Believe Solutions Ltd**, United Kingdom.
+AI engineer based in New Delhi, open to roles in the UAE, UK, EU or remote. Available immediately.
 
-I build production AI systems end to end — architecture, backend, frontend, infrastructure, and the LLM orchestration underneath. Everything below is designed, written and operated by me.
+I build LLM agent products end to end in TypeScript, Next.js and Supabase. I direct Claude Code agents for the implementation and keep the specs, the reviews and the tests for myself. Over 80% of my commits carry a Claude co-author trailer, and I say so. Most of my work is in private repositories (the contribution graph includes it); the public ones below are what you can read today.
 
-### What I'm building
+### Look at these first (two minutes)
 
-**Forge** — the AI agent orchestration platform that runs Marketing So High, Believele and Kompense.
-24 role-specialised autonomous agents, cron-scheduled, coordinated over a custom MCP server. Schema-validated outputs with automatic retry, human-in-the-loop approval gates on every outbound action, no manual operation for routine GTM work across three companies. Internal infrastructure, not a product for sale.
+| What | Why it is worth a look |
+|---|---|
+| [**debutly**](https://github.com/sroay/debutly) ([npm](https://www.npmjs.com/package/debutly), [site and sample report](https://debutly.dev)) | AI agents use your web app like first customers in a real browser and report what broke. TypeScript, Playwright, Postgres, CI on every push, four npm releases. |
+| [**slimline**](https://github.com/sroay/slimline) | A Claude Code hook that trims oversized tool output. The README states its measured ceiling (about 2% of quota) rather than selling it. |
+| [**msh-seo-plugin**](https://github.com/sroay/msh-seo-plugin) ([WordPress.org](https://wordpress.org/plugins/msh-seo/)) | Published WordPress plugin: schema, sitemaps, redirects, AI-crawler rules. |
+| [Kompense demo](https://app.kompense.com/demo) | A 19-tool analyst agent and competitor dashboard. Sample data, no login. |
+| [Forge live office](https://office.technobelieve.com/live) | Public read-only view of the agent platform that runs my own marketing: what each agent is doing and which drafts the gates refuse. |
+| [Believele on the Chrome Web Store](https://chromewebstore.google.com/detail/bjjjglecciemjgbbccpbphhndhlmjmme) | Job-search assistant (web, Android, Manifest V3 extension). |
 
-**[Marketing So High](https://marketingsohigh.com)** — an autonomous marketing platform, operated through an AI agent called Mavel.
-Nine specialised agents cover content strategy, SEO, outreach, distribution, competitive intelligence and analytics. One piece of source content is adapted into native formats for 40 platforms. Multi-tenant, with white-label support for agencies.
+All of these are live and early-stage. The numbers I quote come from my own systems.
 
-**[Believele](https://believele.com)** — an AI career platform.
-Job-fit scoring with gap analysis, ATS-targeted CV and cover-letter generation, voice mock interviews with scored feedback, and application tracking that updates itself from your inbox. Ships as a web app, an Android app and a Chrome extension.
+### What I work on
 
-**[Kompense](https://kompense.com)** — AI-native competitive intelligence for B2B SaaS.
-Tracks competitors' pricing, content, ads, social, hiring signals, news and reviews on a continuous loop, ranks what it finds by severity, generates battlecards, and pushes the moves that matter to Slack and WhatsApp as they happen. Multi-tenant with row-level security from day one, plus a white-label tier for agencies reselling under their own brand.
+- **LLM applications:** tool-calling agents, retrieval with pgvector and HNSW, multi-provider routing (Anthropic, OpenAI, Gemini, Groq, OpenRouter), structured-output validation, fail-closed checks between a model and anything it can send.
+- **Verification:** reviewer agents that attack a change before merge, a truth gate evaluated on 132 labelled cases, a pre-launch isolation audit that found and fixed 52 data leaks.
+- **Stack:** TypeScript, React, Next.js, Node.js, Supabase and Postgres (Row Level Security), BullMQ and Redis, Vitest and Playwright, n8n. Python for automation scripts only.
+- I also file bug reports upstream: seven accessibility issues on Twenty, Cal.com and Chatwoot found with Debutly.
 
-**MedPilot** — clinical management software for private practice.
-
-### What I work on technically
-
-**Multi-provider LLM routing.** Task-appropriate model selection and fallback chains across Gemini, OpenAI, Anthropic, Groq and OpenRouter, with structured-output validation and cost-aware routing.
-
-**Agent orchestration.** Long-running autonomous agents with approval gates, scheduled execution, and grounding constraints that keep generated output tied to source facts rather than plausible invention. This is Forge.
-
-**Retrieval.** pgvector with HNSW indexing for semantic search over user profiles and market data.
-
-**Continuous signal ingestion.** Scheduled multi-source collection — scraping, ad libraries, search APIs, review sites and inbound email — normalised into ranked, alertable events rather than raw feeds.
-
-**Multi-tenancy.** Row-level security across 50+ tenant-scoped tables, with per-tenant key support.
-
-### Open source
-
-Work in progress — this section will list released packages as they ship.
-
-### Elsewhere
-
-[chetansroay.com](https://chetansroay.com) · [Techno Believe Solutions Ltd](https://technobelieve.com)
+[chetansroay.com](https://chetansroay.com) · [LinkedIn](https://www.linkedin.com/in/sroay) · hello@chetansroay.com
+```
