@@ -4,7 +4,7 @@ AI engineer based in New Delhi, open to roles in the UAE, UK, EU or remote. Avai
 
 I build LLM agent products end to end in TypeScript, Next.js and Supabase. I direct Claude Code agents for the implementation and keep the specs, the reviews and the tests for myself. Over 80% of my commits carry a Claude co-author trailer, and I say so. Most of my work is in private repositories (the contribution graph includes it); the public ones below are what you can read today.
 
-**In numbers (November 2026, my own products):** 25,000+ passing unit tests · 80,000+ scheduled job runs a month at 99%+ success · 30,000+ insights embedded for retrieval · 850+ API route handlers · four of my own sites had 290,000+ Google search impressions in eight weeks (late September to November).
+**In numbers (November 2026, my own products):** 1,500+ pull requests merged, written mostly by AI coding agents I direct and check · 1,000+ agent runs a month across 28 agents · 25,000+ passing unit tests · 80,000+ scheduled job runs a month at 99%+ success · 30,000+ insights embedded for retrieval · 850+ API route handlers · four of my own sites had 290,000+ Google search impressions in eight weeks (late September to November).
 
 ### Look at these first (two minutes)
 
@@ -28,4 +28,5 @@ All of these are live and early-stage. The numbers I quote come from my own syst
 
 [chetansroay.com](https://chetansroay.com) · [LinkedIn](https://www.linkedin.com/in/sroay) · hello@chetansroay.com
 ```
+
 
